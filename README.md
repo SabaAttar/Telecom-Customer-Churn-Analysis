@@ -1,9 +1,11 @@
  # 📊 Telecom Customer Churn Analysis
 
 ## 📌 Problem Statement
-Customer churn is a critical challenge in the telecom industry, where customers frequently switch service providers due to competitive pricing, service quality, or better offers. High churn rates directly impact revenue and business growth.
+Customer churn is a critical challenge in the telecom industry, where customers frequently switch service providers due to competitive pricing, service quality, and better offers. High churn rates directly impact revenue, profitability, and business growth.
 
-This project aims to analyze telecom customer data to identify key factors driving churn and provide actionable insights to improve customer retention and business decision-making.
+This project analyzes telecom customer data to identify key factors driving churn and provide actionable insights to improve customer retention.
+
+This project simulates a real-world business scenario where telecom companies use data analytics to identify high-risk customers and implement effective retention strategies.
 
 ---
 
@@ -18,7 +20,13 @@ This project aims to analyze telecom customer data to identify key factors drivi
 - **Power BI** – Data cleaning, transformation, and dashboard development  
 
 ---
+## 📌 Key Metrics
+- Total Customers  
+- Total Churn  
+- Churn Rate  
+- Average Monthly Charges
 
+---
 ## 📊 Key Analysis Performed
 - Calculated overall **churn rate**
 - Analyzed churn by **contract type**
@@ -32,26 +40,26 @@ This project aims to analyze telecom customer data to identify key factors drivi
 ## ⚠️ Challenges Faced & Solutions
 
 ### 1️⃣ Data Quality Issues
-- **Problem:** Missing and inconsistent values in columns like *TotalCharges*  
-- **Solution:** Cleaned and transformed data using Power Query to ensure accuracy  
+- **Problem:** The dataset contained missing and inconsistent values, particularly in fields like *TotalCharges*, affecting data reliability  
+- **Solution:** Performed data cleaning and preprocessing using Power BI Power Query to handle missing values and ensure data consistency  
 
 ---
 
 ### 2️⃣ Data Type Inconsistency
-- **Problem:** Numeric columns stored as text  
-- **Solution:** Converted to appropriate data types for accurate calculations  
+- **Problem:** Certain numerical fields were stored as text, leading to incorrect aggregations and calculations  
+- **Solution:** Converted columns to appropriate data types to enable accurate analysis and reporting  
 
 ---
 
-### 3️⃣ Lack of Direct Business Indicators
-- **Problem:** Dataset did not directly explain churn reasons  
-- **Solution:** Created derived fields (e.g., tenure groups) to uncover hidden patterns  
+### 3️⃣ Lack of Direct Indicators for Churn Drivers
+- **Problem:** The dataset lacked explicit indicators explaining why customers churned  
+- **Solution:** Created derived features such as tenure groups and performed segmentation analysis to uncover hidden patterns  
 
 ---
 
 ### 4️⃣ Identifying Key Churn Drivers
-- **Problem:** Multiple factors influencing churn made analysis complex  
-- **Solution:** Used comparative visual analysis to isolate key drivers such as contract type, tenure, and pricing  
+- **Problem:** Multiple variables influenced churn, making it challenging to isolate the most impactful factors  
+- **Solution:** Conducted comparative visual analysis across dimensions like contract type, tenure, and monthly charges to identify primary churn drivers   
 
 ---
 ## 📸 Dashboard Screenshots
@@ -97,17 +105,17 @@ Telecom-Customer-Churn-Analysis
 ├── dashboard/
 ├── README.md
 
----
-
-## 🔗 Connect With Me
-- **LinkedIn:** https://www.linkedin.com/in/saba-attar-9823aa183  
-- **GitHub:** https://github.com/SabaAttar  
+ 
 ---
 
 ## 🚀 Conclusion
 These dashboards help analyze customer churn patterns, uncover key drivers of attrition, and provide actionable insights to enhance customer retention strategies and minimize revenue loss.
 
 --- 
+
+## 🔗 Connect With Me
+- **LinkedIn:** https://www.linkedin.com/in/saba-attar-9823aa183  
+- **GitHub:** https://github.com/SabaAttar 
 
 ## Author: SABA ATTAR
 - Key Skills: MS Power BI, SQL, Tableau, MS Excel, Python etc..
