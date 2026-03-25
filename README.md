@@ -83,7 +83,9 @@ It contains telecom customer data including demographics, services, tenure, and 
 ---
 
 ## 🚀 Conclusion
-This dashboard helps identify key churn drivers and provides actionable insights to improve customer retention and reduce revenue loss.
+These dashboards help analyze customer churn patterns, uncover key drivers of attrition, and provide actionable insights to enhance customer retention strategies and minimize revenue loss.
+
+--- 
 
 ## Author: SABA ATTAR
 - Key Skills: MS Power BI, SQL, Tableau, MS Excel, Python etc..
